@@ -36,11 +36,12 @@ function Analytics() {
   useEffect(() => {
 
   axios
-    .get("http://127.0.0.1:5000/analytics")
-    .then((res) => {
-      setAnalytics(res.data);
-      setLoading(false);
-    })
+  .get("https://onrender.com")
+  .then((res) => {
+    setAnalytics(res.data);
+    setLoading(false);
+  })
+
     .catch((err) => {
       console.log(err);
       setLoading(false);

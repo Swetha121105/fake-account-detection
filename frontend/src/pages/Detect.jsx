@@ -49,11 +49,12 @@ function Detect() {
     try {
 
       const response = await axios.post(
-        "http://127.0.0.1:5000/predict",
-        payload
-      );
+  "https://onrender.com",
+  payload
+);
 
-      setResult(response.data);
+setResult(response.data);
+
 
       // ✅ Save prediction globally
       setPredictionData(response.data);

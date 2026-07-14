@@ -8,7 +8,7 @@ function History() {
   useEffect(() => {
 
     axios
-      .get("http://127.0.0.1:5000/history")
+      .get("http://onrender.com")
       .then((res) => {
         setHistory(res.data);
       })
