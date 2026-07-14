@@ -1,0 +1,14 @@
+@import url('https://googleapis.com');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #c4dbed;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+div {
+  box-sizing: border-box;
+}
